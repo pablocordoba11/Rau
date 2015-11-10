@@ -1,1 +1,12 @@
 /* Empty. Add your own CSS if you like */
+
+h1.question{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin: 0px 0px 50px 0px;
+}
+
+button.button-block.qbutton{
+    margin-bottom: 25px;
+}
