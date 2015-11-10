@@ -3,6 +3,10 @@
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.1.1"
   },
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
   "version": "0.0.0",
   "homepage": "https://github.com/pablocordoba11/Rau",
   "authors": [
