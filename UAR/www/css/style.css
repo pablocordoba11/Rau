@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+.introColor{
+background-color:#4183D7;
+}
+.logoUar{
+  width: 150px;
+  border-style: solid;
+}
+.pad{
+  padding-top: 100px;
+}
+.mg{
+  margin-top:20px;
+}
