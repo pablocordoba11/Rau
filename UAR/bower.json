@@ -1,6 +1,5 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
+  "name": "Uar",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.1.1"
   },
@@ -8,4 +7,21 @@
     "bootstrap": "~3.3.5",
     "font-awesome": "~4.4.0"
   }
+  "version": "0.0.0",
+  "homepage": "https://github.com/pablocordoba11/Rau",
+  "authors": [
+    "Pablo <pablocordoba11@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
 }
