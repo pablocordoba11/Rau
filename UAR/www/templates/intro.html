@@ -1,6 +1,22 @@
-<ion-view>    
+<ion-view>
     <ion-slide-box ion-wizard>
-        <ion-slide ion-wizard-step>            
+      <ion-slide ion-wizard-step class="introColor">
+        <ion-wizard-content class="has-header">
+          <div class="row pad">
+              <div class="col col-center col-25 col-offset-25">
+                <img src="/img/LogoUAR.png" class="logoUar">
+              </div>
+          </div>
+          <div class="row">
+            <div class="col col-25 col-offset-33 mg">
+              <button class="button button-balanced animation" ion-wizard-next>
+                Comenzar!
+              </button>
+            </div>
+          </div>
+        </ion-wizard-content>
+      </ion-slide>
+        <ion-slide ion-wizard-step>
             <ion-wizard-content class="has-header">
                     <div class="row">
                         <div class="col col-center col-80 col-offset-10">
@@ -20,12 +36,12 @@
                                 <button class="qbutton button button-block button-light" ion-wizard-next>
                                     Muy Mal
                                 </button>
-                            
+
                         </div>
                     </div>
             </ion-wizard-content>
         </ion-slide>
-        <ion-slide ion-wizard-step>            
+        <ion-slide ion-wizard-step>
             <ion-wizard-content class="has-header">
                     <div class="row">
                         <div class="col col-center col-80 col-offset-10">
@@ -45,12 +61,12 @@
                                 <button class="qbutton button button-block button-light" ion-wizard-next>
                                     Muy Mal
                                 </button>
-                            
+
                         </div>
                     </div>
             </ion-wizard-content>
         </ion-slide>
-            <ion-slide ion-wizard-step>            
+            <ion-slide ion-wizard-step>
             <ion-wizard-content class="has-header">
                     <div class="row">
                         <div class="col col-center col-80 col-offset-10">
@@ -70,7 +86,7 @@
                                 <button class="qbutton button button-block button-light" ion-wizard-next>
                                     Me siento muy Mal
                                 </button>
-                            
+
                         </div>
                     </div>
             </ion-wizard-content>
@@ -84,5 +100,4 @@
             </div>
         </ion-slide>
     </ion-slide-box>
-
 </ion-view>
